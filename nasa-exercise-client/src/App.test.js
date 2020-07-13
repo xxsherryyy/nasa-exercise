@@ -8,11 +8,12 @@ test('renders learn react link', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
+//retrive nasa images
 test('load nasa images', () => {
   const date = "2018-04-31"
-  const expectedResult = [] //prepration
+  const expectedResult = []
 
-  const actualResult = getData(date) //logic
+  const actualResult = getData(date)
  
   expect(actualResult).toBe(expectedResult)
 })
